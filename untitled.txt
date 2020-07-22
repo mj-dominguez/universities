@@ -1,0 +1,21 @@
+Assignment: The university dataset (You may work solo or with one other person. Each person should have their own github repo with the completed assignment when you are done.)
+
+Load the university dataset (link below) into a pandas dataframe.
+
+Using pandas, find both the mean and median size by each university type (as given in the dataframe), ordered by average size in ascending order.
+
+Make new columns  in the dataframe from existing data for the following attributes:
+City
+State
+ZipCode
+Private or Public
+for-profit or not-for-profit
+primarily associate's (1 for Yes, 0 for No)
+
+Using the new columns you've made above (and excluding the original type column), find both the mean and median size of each university by State, by Private or Public, and by whether the university is primarily associate's or not.
+ 
+Use the tools you've learned to compute at **least** one other aggregate from the dataset
+Save the updated dataframe as a csv  (using the pandas to_csv method) and commit your files, and push up to github.
+
+(Note: Make a new git repo on your computer and a new github repo in the cloud for this assignment. Save, commit and push often!!!
+Git and github are now a part of your workflow. You must use them for every assignment/project that you do, whether I explicitly tell you to or not, now and forever. )
